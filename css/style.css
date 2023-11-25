@@ -702,3 +702,36 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  color: #555;
+}
